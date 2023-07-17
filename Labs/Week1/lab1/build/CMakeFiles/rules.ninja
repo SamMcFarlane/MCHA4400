@@ -7,14 +7,14 @@
 
 # =============================================================================
 # Project: lab1
-# Configurations: Debug
+# Configurations: Release
 # =============================================================================
 # =============================================================================
 
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__common_unscanned_Debug
+rule CXX_COMPILER__common_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
   command = C:\msys64\mingw64\bin\c++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +24,7 @@ rule CXX_COMPILER__common_unscanned_Debug
 #############################################
 # Rule for linking CXX shared library.
 
-rule CXX_SHARED_LIBRARY_LINKER__common_Debug
+rule CXX_SHARED_LIBRARY_LINKER__common_Release
   command = cmd.exe /C "$PRE_LINK && C:\msys64\mingw64\bin\c++.exe $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX shared library $TARGET_FILE
   restat = $RESTAT
@@ -33,7 +33,7 @@ rule CXX_SHARED_LIBRARY_LINKER__common_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__lab1_unscanned_Debug
+rule CXX_COMPILER__lab1_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
   command = C:\msys64\mingw64\bin\c++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -43,7 +43,7 @@ rule CXX_COMPILER__lab1_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__lab1_Debug
+rule CXX_EXECUTABLE_LINKER__lab1_Release
   command = cmd.exe /C "$PRE_LINK && C:\msys64\mingw64\bin\c++.exe $FLAGS $LINK_FLAGS @$RSP_FILE -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0  && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   rspfile = $RSP_FILE
@@ -54,7 +54,7 @@ rule CXX_EXECUTABLE_LINKER__lab1_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__tests_unscanned_Debug
+rule CXX_COMPILER__tests_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
   command = C:\msys64\mingw64\bin\c++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -64,7 +64,7 @@ rule CXX_COMPILER__tests_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__tests_Debug
+rule CXX_EXECUTABLE_LINKER__tests_Release
   command = cmd.exe /C "$PRE_LINK && C:\msys64\mingw64\bin\c++.exe $FLAGS $LINK_FLAGS @$RSP_FILE -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0  && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   rspfile = $RSP_FILE
@@ -83,7 +83,7 @@ rule CUSTOM_COMMAND
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__nanobench_unscanned_Debug
+rule CXX_COMPILER__nanobench_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
   command = C:\msys64\mingw64\bin\c++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -93,7 +93,7 @@ rule CXX_COMPILER__nanobench_unscanned_Debug
 #############################################
 # Rule for linking CXX static library.
 
-rule CXX_STATIC_LIBRARY_LINKER__nanobench_Debug
+rule CXX_STATIC_LIBRARY_LINKER__nanobench_Release
   command = cmd.exe /C "$PRE_LINK && C:\msys64\mingw64\bin\cmake.exe -E rm -f $TARGET_FILE && C:\msys64\mingw64\bin\ar.exe qc $TARGET_FILE $LINK_FLAGS $in && C:\msys64\mingw64\bin\ranlib.exe $TARGET_FILE && $POST_BUILD"
   description = Linking CXX static library $TARGET_FILE
   restat = $RESTAT
@@ -103,7 +103,7 @@ rule CXX_STATIC_LIBRARY_LINKER__nanobench_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -S"D:\University Work\2023\MECHA4400\Labs\Week1\lab1" -B"D:\University Work\2023\MECHA4400\Labs\Week1\lab1\build"
+  command = C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -S"D:\University Work\2023\MECHA4400\MCHA4400\Labs\Week1\lab1" -B"D:\University Work\2023\MECHA4400\MCHA4400\Labs\Week1\lab1\build"
   description = Re-running CMake...
   generator = 1
 
@@ -112,7 +112,7 @@ rule RERUN_CMAKE
 # Rule for re-checking globbed directories.
 
 rule VERIFY_GLOBS
-  command = C:\msys64\mingw64\bin\cmake.exe -P "D:\University Work\2023\MECHA4400\Labs\Week1\lab1\build\CMakeFiles\VerifyGlobs.cmake"
+  command = C:\msys64\mingw64\bin\cmake.exe -P "D:\University Work\2023\MECHA4400\MCHA4400\Labs\Week1\lab1\build\CMakeFiles\VerifyGlobs.cmake"
   description = Re-checking globbed directories...
   generator = 1
 

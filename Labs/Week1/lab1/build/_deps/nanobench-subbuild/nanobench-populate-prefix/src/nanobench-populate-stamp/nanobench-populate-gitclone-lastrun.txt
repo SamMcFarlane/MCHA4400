@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=C:/msys64/mingw64/bin/cmake.exe;-P;D:/University Work/2023/MECHA4400/Labs/Week1/lab1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/tmp/nanobench-populate-gitclone.cmake
-source_dir=D:/University Work/2023/MECHA4400/Labs/Week1/lab1/build/_deps/nanobench-src
-work_dir=D:/University Work/2023/MECHA4400/Labs/Week1/lab1/build/_deps
+command=C:/msys64/mingw64/bin/cmake.exe;-P;D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week1/lab1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/tmp/nanobench-populate-gitclone.cmake
+source_dir=D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week1/lab1/build/_deps/nanobench-src
+work_dir=D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week1/lab1/build/_deps
 repository=https://github.com/martinus/nanobench.git
 remote=origin
 init_submodules=TRUE

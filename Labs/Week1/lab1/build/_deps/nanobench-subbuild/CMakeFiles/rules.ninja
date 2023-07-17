@@ -23,7 +23,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -S"D:\University Work\2023\MECHA4400\Labs\Week1\lab1\build\_deps\nanobench-subbuild" -B"D:\University Work\2023\MECHA4400\Labs\Week1\lab1\build\_deps\nanobench-subbuild"
+  command = C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -S"D:\University Work\2023\MECHA4400\MCHA4400\Labs\Week1\lab1\build\_deps\nanobench-subbuild" -B"D:\University Work\2023\MECHA4400\MCHA4400\Labs\Week1\lab1\build\_deps\nanobench-subbuild"
   description = Re-running CMake...
   generator = 1
 

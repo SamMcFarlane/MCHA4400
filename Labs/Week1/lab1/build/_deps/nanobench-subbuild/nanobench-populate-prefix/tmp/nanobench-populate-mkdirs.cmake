@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "D:/University Work/2023/MECHA4400/Labs/Week1/lab1/build/_deps/nanobench-src"
-  "D:/University Work/2023/MECHA4400/Labs/Week1/lab1/build/_deps/nanobench-build"
-  "D:/University Work/2023/MECHA4400/Labs/Week1/lab1/build/_deps/nanobench-subbuild/nanobench-populate-prefix"
-  "D:/University Work/2023/MECHA4400/Labs/Week1/lab1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/tmp"
-  "D:/University Work/2023/MECHA4400/Labs/Week1/lab1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/src/nanobench-populate-stamp"
-  "D:/University Work/2023/MECHA4400/Labs/Week1/lab1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/src"
-  "D:/University Work/2023/MECHA4400/Labs/Week1/lab1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/src/nanobench-populate-stamp"
+  "D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week1/lab1/build/_deps/nanobench-src"
+  "D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week1/lab1/build/_deps/nanobench-build"
+  "D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week1/lab1/build/_deps/nanobench-subbuild/nanobench-populate-prefix"
+  "D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week1/lab1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/tmp"
+  "D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week1/lab1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/src/nanobench-populate-stamp"
+  "D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week1/lab1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/src"
+  "D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week1/lab1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/src/nanobench-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "D:/University Work/2023/MECHA4400/Labs/Week1/lab1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/src/nanobench-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week1/lab1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/src/nanobench-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "D:/University Work/2023/MECHA4400/Labs/Week1/lab1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/src/nanobench-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week1/lab1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/src/nanobench-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

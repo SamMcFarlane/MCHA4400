@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 
     // Undefined behaviour using a raw array
     double stack_array[10];
-    double temp = stack_array[1000000];         // Maybe a segmentation fault
+    // double temp = stack_array[1000000];         // Maybe a segmentation fault
     // stack_array[1000000] = 1.0;                 // Maybe a segmentation fault
 
     // Undefined behaviour using a null pointer

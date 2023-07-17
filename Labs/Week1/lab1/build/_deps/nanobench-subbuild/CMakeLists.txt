@@ -22,8 +22,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(nanobench-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/martinus/nanobench.git" "GIT_TAG" "v4.3.11" "GIT_SHALLOW" "TRUE"
-                    SOURCE_DIR          "D:/University Work/2023/MECHA4400/Labs/Week1/lab1/build/_deps/nanobench-src"
-                    BINARY_DIR          "D:/University Work/2023/MECHA4400/Labs/Week1/lab1/build/_deps/nanobench-build"
+                    SOURCE_DIR          "D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week1/lab1/build/_deps/nanobench-src"
+                    BINARY_DIR          "D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week1/lab1/build/_deps/nanobench-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

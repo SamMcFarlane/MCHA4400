@@ -1,0 +1,35 @@
+# ninja log v5
+4361	5077	0	D:/University Work/2023/MECHA4400/Labs/Week1/lab1/build/CMakeFiles/run_tests	5f1d26d103bab13b
+4361	5077	0	CMakeFiles/run_tests	5f1d26d103bab13b
+9434	9885	7112542711463778	tests.exe	73608a0fd38edbb4
+121	9432	7112542707011131	CMakeFiles/tests.dir/test/src/main.cpp.obj	d42136551e52c608
+117	229	0	D:/University Work/2023/MECHA4400/Labs/Week1/lab1/build/CMakeFiles/cmake.verify_globs	9007b602c9a49bb
+129	377	7112542616473747	CMakeFiles/tests.dir/test/src/sanity.cpp.obj	aeadbb978d37f3b3
+87	4369	7112542656386969	CMakeFiles/common.dir/src/vnormFunctor.cpp.obj	254e6ffe03cfd55c
+98	4822	7112542660914855	CMakeFiles/common.dir/src/vnormFunctorRAD.cpp.obj	f32fba3c42655d24
+4823	5050	7112542663139241	libcommon.dll	67461f37b998a47d
+112	3554	7112542648208850	CMakeFiles/tests.dir/test/src/aruco.cpp.obj	7b496c1636eab0f7
+258	3465	7112553135800537	CMakeFiles/lab1.dir/src/main.cpp.obj	8749b0e27d59eb99
+149	6100	7112542673700988	_deps/nanobench-build/CMakeFiles/nanobench.dir/src/test/app/nanobench.cpp.obj	b1a54bc667d5f4f6
+92	4276	7112542655439519	CMakeFiles/common.dir/src/vnormFunctorFAD.cpp.obj	b7d98fd27a1b2fe5
+139	7723	7112542689937199	CMakeFiles/tests.dir/test/src/vnormderiv.cpp.obj	2e288fa92d6b5f73
+4823	5050	7112542663139241	libcommon.dll.a	67461f37b998a47d
+6101	6346	7112542676154075	_deps/nanobench-build/libnanobench.a	1dc1a39263799771
+3471	4360	7112553144594092	lab1.exe	e2f63b199b70c49f
+203	319	0	D:/University Work/2023/MECHA4400/Labs/Week1/lab1/build/CMakeFiles/cmake.verify_globs	9007b602c9a49bb
+498	1171	7112556970623836	CMakeFiles/tests.dir/test/src/sanity.cpp.obj	616cd89dbd217700
+409	8846	7112557047508689	CMakeFiles/lab1.dir/src/main.cpp.obj	9ea63643d0f26997
+441	9039	7112557049335559	CMakeFiles/tests.dir/test/src/aruco.cpp.obj	16548db32001780a
+346	9530	7112557054286711	CMakeFiles/common.dir/src/vnormFunctor.cpp.obj	2a5c6c98bf636667
+367	9572	7112557054664618	CMakeFiles/common.dir/src/vnormFunctorFAD.cpp.obj	8763171e3f6e78b5
+387	10153	7112557060497382	CMakeFiles/common.dir/src/vnormFunctorRAD.cpp.obj	9a4332fa97c63762
+556	11633	7112557075191024	_deps/nanobench-build/CMakeFiles/nanobench.dir/src/test/app/nanobench.cpp.obj	12132fd0bf563d23
+10154	11768	7112557076555278	libcommon.dll	546cde99539ff187
+10154	11768	7112557076555278	libcommon.dll.a	546cde99539ff187
+11634	13087	7112557089848060	_deps/nanobench-build/libnanobench.a	1dc1a39263799771
+13087	14463	7112557103493325	lab1.exe	d33080b01d2c7cc7
+529	16099	7112557119843378	CMakeFiles/tests.dir/test/src/vnormderiv.cpp.obj	cb1562db8ef50731
+470	16602	7112557124998874	CMakeFiles/tests.dir/test/src/main.cpp.obj	586cb6ed0da390b0
+16603	19271	7112557151477319	tests.exe	cf324a6464ac2467
+19273	35555	0	CMakeFiles/run_tests	5f1d26d103bab13b
+19273	35555	0	D:/University Work/2023/MECHA4400/Labs/Week1/lab1/build/CMakeFiles/run_tests	5f1d26d103bab13b

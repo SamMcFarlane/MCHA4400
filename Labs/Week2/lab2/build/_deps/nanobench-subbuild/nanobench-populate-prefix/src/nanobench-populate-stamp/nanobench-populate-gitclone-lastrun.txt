@@ -1,0 +1,15 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=git
+command=C:/msys64/mingw64/bin/cmake.exe;-P;D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/_deps/nanobench-subbuild/nanobench-populate-prefix/tmp/nanobench-populate-gitclone.cmake
+source_dir=D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/_deps/nanobench-src
+work_dir=D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/_deps
+repository=https://github.com/martinus/nanobench.git
+remote=origin
+init_submodules=TRUE
+recurse_submodules=--recursive
+submodules=
+CMP0097=NEW
+

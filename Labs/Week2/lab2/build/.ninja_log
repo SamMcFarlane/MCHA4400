@@ -1,0 +1,96 @@
+# ninja log v5
+3098	3236	0	CMakeFiles/run_tests	cac06cf268be03e6
+2670	3098	7118797137104972	tests.exe	ad6fcdb50b63c0fb
+2279	2663	7118797132766578	libcommon.dll.a	c62ded0c23d4edc
+2279	2663	7118797132766578	libcommon.dll	c62ded0c23d4edc
+3098	3236	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/run_tests	cac06cf268be03e6
+82	278	7118606452295310	_deps/nanobench-build/libnanobench.a	1dc1a39263799771
+870	8925	7118604398909721	CMakeFiles/tests.dir/test/src/main.cpp.obj	a3a6658a5912c927
+865	3675	7118604346431784	CMakeFiles/tests.dir/test/src/aruco.cpp.obj	321ec1200f7784e0
+2664	3066	7118797136785735	lab2.exe	333a2b59fae1b2f3
+875	5655	7118604366219208	_deps/nanobench-build/CMakeFiles/nanobench.dir/src/test/app/nanobench.cpp.obj	1e25aed48f17148
+71	2279	7118797128985084	CMakeFiles/common.dir/src/imagefeatures.cpp.obj	b0f85aaaaa746e1
+75	1924	7118792884680302	CMakeFiles/lab2.dir/src/main.cpp.obj	facc5b54208f2d15
+34	63	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/cmake.verify_globs	6185523f8bc083da
+40	69	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/cmake.verify_globs	6185523f8bc083da
+77	2329	7118797460719967	CMakeFiles/common.dir/src/imagefeatures.cpp.obj	b0f85aaaaa746e1
+2329	2716	7118797464509837	libcommon.dll	c62ded0c23d4edc
+2329	2716	7118797464509837	libcommon.dll.a	c62ded0c23d4edc
+2717	3124	7118797468588929	lab2.exe	333a2b59fae1b2f3
+2722	3153	7118797468888132	tests.exe	ad6fcdb50b63c0fb
+3153	3292	0	CMakeFiles/run_tests	cac06cf268be03e6
+3153	3292	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/run_tests	cac06cf268be03e6
+38	67	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/cmake.verify_globs	6185523f8bc083da
+75	2263	7118797621972956	CMakeFiles/common.dir/src/imagefeatures.cpp.obj	b0f85aaaaa746e1
+2263	2645	7118797625720734	libcommon.dll	c62ded0c23d4edc
+2263	2645	7118797625720734	libcommon.dll.a	c62ded0c23d4edc
+2645	3052	7118797629789845	lab2.exe	333a2b59fae1b2f3
+2651	3085	7118797630118968	tests.exe	ad6fcdb50b63c0fb
+3085	3225	0	CMakeFiles/run_tests	cac06cf268be03e6
+3085	3225	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/run_tests	cac06cf268be03e6
+41	70	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/cmake.verify_globs	6185523f8bc083da
+78	2301	7118798243636353	CMakeFiles/common.dir/src/imagefeatures.cpp.obj	b0f85aaaaa746e1
+2302	2685	7118798247397637	libcommon.dll	c62ded0c23d4edc
+2302	2685	7118798247397637	libcommon.dll.a	c62ded0c23d4edc
+2685	3090	7118798251456781	lab2.exe	333a2b59fae1b2f3
+2691	3123	7118798251785921	tests.exe	ad6fcdb50b63c0fb
+3124	3275	0	CMakeFiles/run_tests	cac06cf268be03e6
+3124	3275	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/run_tests	cac06cf268be03e6
+39	75	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/cmake.verify_globs	6185523f8bc083da
+34	63	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/cmake.verify_globs	6185523f8bc083da
+34	63	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/cmake.verify_globs	6185523f8bc083da
+71	2349	7118809196654375	CMakeFiles/common.dir/src/imagefeatures.cpp.obj	b0f85aaaaa746e1
+2350	2764	7118809200737216	libcommon.dll	c62ded0c23d4edc
+2350	2764	7118809200737216	libcommon.dll.a	c62ded0c23d4edc
+2765	3169	7118809204776413	lab2.exe	333a2b59fae1b2f3
+2770	3199	7118809205075487	tests.exe	ad6fcdb50b63c0fb
+3199	3357	0	CMakeFiles/run_tests	cac06cf268be03e6
+3199	3357	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/run_tests	cac06cf268be03e6
+39	69	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/cmake.verify_globs	6185523f8bc083da
+77	208	0	CMakeFiles/run_tests	cac06cf268be03e6
+77	208	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/run_tests	cac06cf268be03e6
+35	65	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/cmake.verify_globs	6185523f8bc083da
+34	64	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/cmake.verify_globs	6185523f8bc083da
+72	2366	7118816452870605	CMakeFiles/common.dir/src/imagefeatures.cpp.obj	b0f85aaaaa746e1
+2368	2768	7118816456815044	libcommon.dll	c62ded0c23d4edc
+2368	2768	7118816456815044	libcommon.dll.a	c62ded0c23d4edc
+2769	3173	7118816460864113	lab2.exe	333a2b59fae1b2f3
+2774	3199	7118816461123523	tests.exe	ad6fcdb50b63c0fb
+3199	3344	0	CMakeFiles/run_tests	cac06cf268be03e6
+3199	3344	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/run_tests	cac06cf268be03e6
+39	68	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/cmake.verify_globs	6185523f8bc083da
+76	2395	7118818080533404	CMakeFiles/common.dir/src/imagefeatures.cpp.obj	b0f85aaaaa746e1
+2397	2791	7118818084423034	libcommon.dll	c62ded0c23d4edc
+2397	2791	7118818084423034	libcommon.dll.a	c62ded0c23d4edc
+2792	3201	7118818088520798	lab2.exe	333a2b59fae1b2f3
+2797	3225	7118818088760603	tests.exe	ad6fcdb50b63c0fb
+3225	3360	0	CMakeFiles/run_tests	cac06cf268be03e6
+3225	3360	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/run_tests	cac06cf268be03e6
+38	67	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/cmake.verify_globs	6185523f8bc083da
+75	2373	7118818535497030	CMakeFiles/common.dir/src/imagefeatures.cpp.obj	b0f85aaaaa746e1
+2373	2758	7118818539276921	libcommon.dll	c62ded0c23d4edc
+2373	2758	7118818539276921	libcommon.dll.a	c62ded0c23d4edc
+2759	3165	7118818543356041	lab2.exe	333a2b59fae1b2f3
+2764	3199	7118818543695116	tests.exe	ad6fcdb50b63c0fb
+3199	3345	0	CMakeFiles/run_tests	cac06cf268be03e6
+3199	3345	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/run_tests	cac06cf268be03e6
+39	69	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/cmake.verify_globs	6185523f8bc083da
+77	2432	7118821613164802	CMakeFiles/common.dir/src/imagefeatures.cpp.obj	b0f85aaaaa746e1
+2432	2823	7118821617003596	libcommon.dll	c62ded0c23d4edc
+2432	2823	7118821617003596	libcommon.dll.a	c62ded0c23d4edc
+2823	3227	7118821621042320	lab2.exe	333a2b59fae1b2f3
+2829	3257	7118821621341520	tests.exe	ad6fcdb50b63c0fb
+3257	3408	0	CMakeFiles/run_tests	cac06cf268be03e6
+3257	3408	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/run_tests	cac06cf268be03e6
+44	73	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/cmake.verify_globs	6185523f8bc083da
+82	201	0	CMakeFiles/run_tests	cac06cf268be03e6
+82	201	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/run_tests	cac06cf268be03e6
+34	65	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/cmake.verify_globs	6185523f8bc083da
+73	182	0	CMakeFiles/run_tests	cac06cf268be03e6
+73	182	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/run_tests	cac06cf268be03e6
+34	64	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/cmake.verify_globs	6185523f8bc083da
+73	192	0	CMakeFiles/run_tests	cac06cf268be03e6
+73	192	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/run_tests	cac06cf268be03e6
+34	63	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/cmake.verify_globs	6185523f8bc083da
+71	197	0	CMakeFiles/run_tests	cac06cf268be03e6
+71	197	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week2/lab2/build/CMakeFiles/run_tests	cac06cf268be03e6

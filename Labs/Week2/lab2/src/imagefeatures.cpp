@@ -17,7 +17,7 @@ cv::Mat detectAndDrawHarris(const cv::Mat & img, int maxNumFeatures)
     //cv::Mat dst_cpy;
     cv::cornerHarris(grayImage,dst,2,3,0.04);
     //dst_cpy = dst;
-    double threshold = 200;
+    double threshold = 150;
 
     
     cv::Mat dst_norm, dst_norm_scaled;
@@ -62,7 +62,7 @@ int featuresFound = (int) textureValues.size();
 
         // Print the Harris score of the feature point
         std::string scoreStr = std::to_string(textureValues[indices[i]]);
-        cv::putText(imgout, scoreStr, point, cv::FONT_HERSHEY_SIMPLEX, 0.8, cv::Scalar(255, 255, 255),2);
+        cv::putText(imgout, scoreStr, point, cv::FONT_HERSHEY_SIMPLEX, 0.8, cv::Scalar(255, 0, 0),2);
 
         std::cout<<"idx: "<<i<<"  | Pt: ("<<point.x<<","<<point.y<<")  | Harris Score: "<<scoreStr<<std::endl;
     }
@@ -144,7 +144,7 @@ cv::Mat detectAndDrawShiAndTomasi(const cv::Mat & img, int maxNumFeatures)
 
         // Print the Harris score of the feature point
         std::string scoreStr = std::to_string(textureValues[indices[i]]);
-        cv::putText(imgout, scoreStr, point, cv::FONT_HERSHEY_SIMPLEX, 0.8, cv::Scalar(255, 255, 255),2);
+        cv::putText(imgout, scoreStr, point, cv::FONT_HERSHEY_SIMPLEX, 0.8, cv::Scalar(255, 0, 0),2);
 
         std::cout<<"idx: "<<i<<"  | Pt: ("<<point.x<<","<<point.y<<")  | Harris Score: "<<scoreStr<<std::endl;
     }
@@ -162,12 +162,12 @@ cv::Mat detectAndDrawORB(const cv::Mat & img, int maxNumFeatures)
 
     float scaleFactor = 1.2f;
     int nlevels = 8;
-    int edgeThreshold = 31;
+    int edgeThreshold = 25;
     int firstLevel = 0;
     int WTA_K = 2;
-    cv::ORB::ScoreType scoreType = cv::ORB::FAST_SCORE;
-    int patchSize = 31;
-    int fastThreshold = 20;
+    cv::ORB::ScoreType scoreType = cv::ORB::HARRIS_SCORE;
+    int patchSize = 25;
+    int fastThreshold = 40;
 
 
     cv::Ptr<cv::ORB> orb = cv::ORB::create(maxNumFeatures,scaleFactor,nlevels,edgeThreshold,firstLevel,WTA_K,scoreType,patchSize,fastThreshold);

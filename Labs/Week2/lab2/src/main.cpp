@@ -138,7 +138,7 @@ int main(int argc, char *argv[])
         {
             // TODO: Open output video for writing using the same fps as the input video
             //       and the codec set to cv::VideoWriter::fourcc('m', 'p', '4', 'v')
-             writer.open("../out/output_video.mp4", fourcc, fps, cv::Size(cap.get(cv::CAP_PROP_FRAME_WIDTH), cap.get(cv::CAP_PROP_FRAME_HEIGHT)));
+             writer.open(outputPath.string(), fourcc, fps, cv::Size(cap.get(cv::CAP_PROP_FRAME_WIDTH), cap.get(cv::CAP_PROP_FRAME_HEIGHT)));
             if (!writer.isOpened())
             {
                 std::cerr << "Error: Cannot open output video file." << std::endl;

@@ -226,10 +226,15 @@ cv::Mat detectAndDrawArUco(const cv::Mat & img, int maxNumFeatures)
     std::cout<<"Image Height: "<<std::to_string(img.rows)<<std::endl;
     std::cout<<"Number of Tages: "<<(int) ids.size()<<std::endl;
 
+
+    std::vector<int> indices(ids.size());
+    std::iota(indices.begin(), indices.end(), 0);
+    std::sort(indices.begin(), indices.end(), [&](int a, int b) { return ids[a] < ids[b]; });
+
     for(int i = 0;i<(int) ids.size();i++){
-        std::cout<<"ID: "<<ids.at(i)<<"  |  Corners: ";
+        std::cout<<"ID: "<<ids.at(indices[i])<<"  |  Corners: ";
         for(int j = 0;j<4;j++){
-           cv::Point2f point = corners[i][j];
+           cv::Point2f point = corners[indices[i]][j];
             std::cout<<"("<<point.x<<","<<point.y<<") ";
         }
         std::cout<<std::endl;

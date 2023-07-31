@@ -17,7 +17,7 @@ cv::Mat detectAndDrawHarris(const cv::Mat & img, int maxNumFeatures)
     //cv::Mat dst_cpy;
     cv::cornerHarris(grayImage,dst,2,3,0.04);
     //dst_cpy = dst;
-    double threshold = 150;
+    double threshold = 120;
 
     
     cv::Mat dst_norm, dst_norm_scaled;
@@ -61,8 +61,9 @@ int featuresFound = (int) textureValues.size();
         cv::circle(imgout, point, radius, color, thickness);
 
         // Print the Harris score of the feature point
+        std::string ID = std::to_string(i);
         std::string scoreStr = std::to_string(textureValues[indices[i]]);
-        cv::putText(imgout, scoreStr, point, cv::FONT_HERSHEY_SIMPLEX, 0.8, cv::Scalar(255, 0, 0),2);
+        cv::putText(imgout, ID, point, cv::FONT_HERSHEY_SIMPLEX, 0.8, cv::Scalar(255, 0, 0),2);
 
         std::cout<<"idx: "<<i<<"  | Pt: ("<<point.x<<","<<point.y<<")  | Harris Score: "<<scoreStr<<std::endl;
     }
@@ -85,7 +86,7 @@ cv::Mat detectAndDrawShiAndTomasi(const cv::Mat & img, int maxNumFeatures)
     cv::Mat eigenValues;
     cv::cornerMinEigenVal(grayImage, eigenValues, 3, 3);
 
-    double threshold = 0.01; // Adjust the threshold as needed
+    double threshold = 0.03; // Adjust the threshold as needed
 
     // Step 2: Store all pixels and their associated eigenvalues above the threshold in a vector
     std::vector<cv::Point> featurePoints;
@@ -144,7 +145,8 @@ cv::Mat detectAndDrawShiAndTomasi(const cv::Mat & img, int maxNumFeatures)
 
         // Print the Harris score of the feature point
         std::string scoreStr = std::to_string(textureValues[indices[i]]);
-        cv::putText(imgout, scoreStr, point, cv::FONT_HERSHEY_SIMPLEX, 0.8, cv::Scalar(255, 0, 0),2);
+        std::string ID = std::to_string(i);
+        cv::putText(imgout, ID, point, cv::FONT_HERSHEY_SIMPLEX, 0.8, cv::Scalar(255, 0, 0),2);
 
         std::cout<<"idx: "<<i<<"  | Pt: ("<<point.x<<","<<point.y<<")  | Harris Score: "<<scoreStr<<std::endl;
     }

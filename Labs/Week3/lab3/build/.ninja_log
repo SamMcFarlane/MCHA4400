@@ -1,0 +1,40 @@
+# ninja log v5
+6660	7112	7124739921048296	tests.exe	e027c09a5c5225eb
+6654	7077	7124739920708715	lab3.exe	ded7cb68f7a54b49
+77	6202	7124739912016165	CMakeFiles/common.dir/src/Camera.cpp.obj	e4ab76f45003537a
+236	445	7123936096690621	_deps/nanobench-build/libnanobench.a	1dc1a39263799771
+91	9202	7123932176292418	CMakeFiles/tests.dir/test/src/main.cpp.obj	b1b530cf9b5f88c
+193	5650	7123932140782616	_deps/nanobench-build/CMakeFiles/nanobench.dir/src/test/app/nanobench.cpp.obj	b896f910713e8cad
+6205	6654	7124739916460522	libcommon.dll	7ad24257e99cd426
+86	2113	7124096909184981	CMakeFiles/tests.dir/test/src/camera.cpp.obj	57b6c85dcb9a2905
+82	3272	7123932116989506	CMakeFiles/lab3.dir/src/main.cpp.obj	6b603e3e75c58309
+6205	6654	7124739916460522	libcommon.dll.a	7ad24257e99cd426
+38	69	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week3/lab3/build/CMakeFiles/cmake.verify_globs	3a39e48c77cfa613
+7112	7241	0	CMakeFiles/run_tests	f86f1473173fa0bd
+7112	7241	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week3/lab3/build/CMakeFiles/run_tests	f86f1473173fa0bd
+40	70	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week3/lab3/build/CMakeFiles/cmake.verify_globs	3a39e48c77cfa613
+78	6244	7124740492328781	CMakeFiles/common.dir/src/Camera.cpp.obj	e4ab76f45003537a
+6245	6689	7124740496697122	libcommon.dll	7ad24257e99cd426
+6245	6689	7124740496697122	libcommon.dll.a	7ad24257e99cd426
+6690	7112	7124740500923599	lab3.exe	ded7cb68f7a54b49
+6695	7140	7124740501212831	tests.exe	e027c09a5c5225eb
+7140	7284	0	CMakeFiles/run_tests	f86f1473173fa0bd
+7140	7284	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week3/lab3/build/CMakeFiles/run_tests	f86f1473173fa0bd
+38	74	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week3/lab3/build/CMakeFiles/cmake.verify_globs	3a39e48c77cfa613
+34	65	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week3/lab3/build/CMakeFiles/cmake.verify_globs	3a39e48c77cfa613
+34	65	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week3/lab3/build/CMakeFiles/cmake.verify_globs	3a39e48c77cfa613
+73	6168	7124759971088379	CMakeFiles/common.dir/src/Camera.cpp.obj	e4ab76f45003537a
+6170	6646	7124759975790885	libcommon.dll	7ad24257e99cd426
+6170	6646	7124759975790885	libcommon.dll.a	7ad24257e99cd426
+6647	7072	7124759980059464	lab3.exe	ded7cb68f7a54b49
+6656	7103	7124759980368656	tests.exe	e027c09a5c5225eb
+7104	7231	0	CMakeFiles/run_tests	f86f1473173fa0bd
+7104	7231	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week3/lab3/build/CMakeFiles/run_tests	f86f1473173fa0bd
+39	71	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week3/lab3/build/CMakeFiles/cmake.verify_globs	3a39e48c77cfa613
+79	6186	7124760997306510	CMakeFiles/common.dir/src/Camera.cpp.obj	e4ab76f45003537a
+6187	6630	7124761001686011	libcommon.dll	7ad24257e99cd426
+6187	6630	7124761001686011	libcommon.dll.a	7ad24257e99cd426
+6631	7070	7124761006066682	lab3.exe	ded7cb68f7a54b49
+6637	7105	7124761006432775	tests.exe	e027c09a5c5225eb
+7105	7217	0	CMakeFiles/run_tests	f86f1473173fa0bd
+7105	7217	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week3/lab3/build/CMakeFiles/run_tests	f86f1473173fa0bd

@@ -1,6 +1,10 @@
+#define _USE_MATH_DEFINES
+ 
+#include <cmath>
 #include <doctest/doctest.h>
 #include <Eigen/Core>
 #include "../../src/gaussian_util.h"
+#include <iostream>
 
 #ifndef CAPTURE_EIGEN
 #define CAPTURE_EIGEN(x) INFO(#x " = \n", x.format(Eigen::IOFormat(Eigen::FullPrecision, 0, ", ", ";\n", "", "", "[", "]")));
@@ -14,6 +18,7 @@ SCENARIO("PythagoreanQR")
         S1 = Eigen::MatrixXd::Identity(3,3);
         S2 = Eigen::MatrixXd::Zero(3,3);
         REQUIRE(S1.cols() == S2.cols());
+        std::cout<<M_PI<<std::endl;
 
         WHEN("pythagoreanQR(S1, S2, S) is called")
         {

@@ -1,104 +1,21 @@
 # ninja log v5
-9749	9961	0	CMakeFiles/run_tests	9c7565407e0d787
-9749	9961	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/run_tests	9c7565407e0d787
-39	69	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-10027	11141	7130063890698942	tests.exe	33672dd9ffaa20ed
-108	4347	7129975906383315	_deps/nanobench-build/CMakeFiles/nanobench.dir/src/test/app/nanobench.cpp.obj	4ba2eab1a627b0c4
-102	4234	7130045727058062	CMakeFiles/tests.dir/test/src/pythagoreanQR.cpp.obj	d73f8db98c5dc106
-79	3962	7130061013614879	CMakeFiles/tests.dir/test/src/conditionGaussianOnMarginal.cpp.obj	3ed8a90c05c3053f
-79	3780	7130004203277050	CMakeFiles/lab4.dir/src/main.cpp.obj	baee8e396c50370f
-95	6949	7129975932416945	CMakeFiles/tests.dir/test/src/main.cpp.obj	b2f79d3d9316960f
-86	637	7129976073147905	_deps/nanobench-build/libnanobench.a	1dc1a39263799771
-8174	10021	7130063879469791	libcommon.dll	24122ee0b6e48229
-79	8173	7130063860929618	CMakeFiles/common.dir/src/gaussian_util.cpp.obj	f9ffbd9e7a4d8806
-8174	10021	7130063879469791	libcommon.dll.a	24122ee0b6e48229
-10022	10618	7130063885493795	lab4.exe	3703305c594a9b19
-40	70	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-35	64	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-73	3937	7130064937618814	CMakeFiles/tests.dir/test/src/conditionGaussianOnMarginal.cpp.obj	3ed8a90c05c3053f
-3937	5031	7130064948527818	tests.exe	33672dd9ffaa20ed
-39	69	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-83	4089	7130072387552712	CMakeFiles/tests.dir/test/src/conditionGaussianOnMarginal.cpp.obj	3ed8a90c05c3053f
-78	8477	7130072431322331	CMakeFiles/common.dir/src/gaussian_util.cpp.obj	f9ffbd9e7a4d8806
-8478	10318	7130072449805164	libcommon.dll	24122ee0b6e48229
-8478	10318	7130072449805164	libcommon.dll.a	24122ee0b6e48229
-10319	10891	7130072455573947	lab4.exe	3703305c594a9b19
-10324	11570	7130072462326678	tests.exe	33672dd9ffaa20ed
-42	72	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-81	8197	7130072978304232	CMakeFiles/common.dir/src/gaussian_util.cpp.obj	f9ffbd9e7a4d8806
-8197	10065	7130072997056777	libcommon.dll	24122ee0b6e48229
-8197	10065	7130072997056777	libcommon.dll.a	24122ee0b6e48229
-10065	10640	7130073002843233	lab4.exe	3703305c594a9b19
-10071	11166	7130073008075987	tests.exe	33672dd9ffaa20ed
-40	69	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-35	65	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-74	8227	7130075912158301	CMakeFiles/common.dir/src/gaussian_util.cpp.obj	f9ffbd9e7a4d8806
-8228	10085	7130075930803051	libcommon.dll	24122ee0b6e48229
-8228	10085	7130075930803051	libcommon.dll.a	24122ee0b6e48229
-10086	10665	7130075936633666	lab4.exe	3703305c594a9b19
-10092	11204	7130075942016500	tests.exe	33672dd9ffaa20ed
-40	70	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-79	8285	7130076588087319	CMakeFiles/common.dir/src/gaussian_util.cpp.obj	f9ffbd9e7a4d8806
-8285	10144	7130076606759063	libcommon.dll	24122ee0b6e48229
-8285	10144	7130076606759063	libcommon.dll.a	24122ee0b6e48229
-10145	10717	7130076612515011	lab4.exe	3703305c594a9b19
-10151	11254	7130076617869450	tests.exe	33672dd9ffaa20ed
-40	70	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-79	8231	7130078523565510	CMakeFiles/common.dir/src/gaussian_util.cpp.obj	f9ffbd9e7a4d8806
-8232	10061	7130078541944271	libcommon.dll	24122ee0b6e48229
-8232	10061	7130078541944271	libcommon.dll.a	24122ee0b6e48229
-10061	10660	7130078547959260	lab4.exe	3703305c594a9b19
-10067	11188	7130078553226193	tests.exe	33672dd9ffaa20ed
-11188	11401	0	CMakeFiles/run_tests	9c7565407e0d787
-11188	11401	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/run_tests	9c7565407e0d787
-41	117	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-126	3638	7130094429011094	CMakeFiles/lab4.dir/src/main.cpp.obj	baee8e396c50370f
-3639	4227	7130094434871238	lab4.exe	3703305c594a9b19
-4228	4299	0	CMakeFiles/run_tests	9c7565407e0d787
-4228	4299	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/run_tests	9c7565407e0d787
-40	69	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-78	3528	7130094683305011	CMakeFiles/lab4.dir/src/main.cpp.obj	baee8e396c50370f
-3529	4094	7130094688951700	lab4.exe	3703305c594a9b19
-4094	4121	0	CMakeFiles/run_tests	9c7565407e0d787
-4094	4121	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/run_tests	9c7565407e0d787
-197	414	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-443	6355	7130707615064594	CMakeFiles/lab4.dir/src/main.cpp.obj	baee8e396c50370f
-6357	7839	7130707629806236	lab4.exe	3703305c594a9b19
-7841	8014	0	CMakeFiles/run_tests	9c7565407e0d787
-7841	8014	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/run_tests	9c7565407e0d787
-48	244	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-253	5989	7130712221614654	CMakeFiles/tests.dir/test/src/conditionGaussianOnMarginal.cpp.obj	3ed8a90c05c3053f
-5989	9042	7130712252109538	tests.exe	33672dd9ffaa20ed
-9043	9359	0	CMakeFiles/run_tests	9c7565407e0d787
-9043	9359	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/run_tests	9c7565407e0d787
-46	77	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-33	62	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-71	3494	7130715072999065	CMakeFiles/lab4.dir/src/main.cpp.obj	baee8e396c50370f
-3593	4178	7130715079808217	lab4.exe	3703305c594a9b19
-4178	4206	0	CMakeFiles/run_tests	9c7565407e0d787
-4178	4206	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/run_tests	9c7565407e0d787
-38	68	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-34	66	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-33	63	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-33	63	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-71	3834	7130718040431562	CMakeFiles/lab4.dir/src/main.cpp.obj	baee8e396c50370f
-3834	4635	7130718048405086	lab4.exe	3703305c594a9b19
-4636	4665	0	CMakeFiles/run_tests	9c7565407e0d787
-4636	4665	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/run_tests	9c7565407e0d787
-39	70	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-83	3891	7130721264030965	CMakeFiles/lab4.dir/src/main.cpp.obj	baee8e396c50370f
-79	8485	7130721309872909	CMakeFiles/common.dir/src/gaussian_util.cpp.obj	f9ffbd9e7a4d8806
-8486	10353	7130721328618496	libcommon.dll	24122ee0b6e48229
-8486	10353	7130721328618496	libcommon.dll.a	24122ee0b6e48229
-10353	11791	7130721343017055	lab4.exe	3703305c594a9b19
-10359	11871	7130721343804948	tests.exe	33672dd9ffaa20ed
-11871	12086	0	CMakeFiles/run_tests	9c7565407e0d787
-11871	12086	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/run_tests	9c7565407e0d787
-54	90	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
-99	8266	7130728889274027	CMakeFiles/common.dir/src/gaussian_util.cpp.obj	f9ffbd9e7a4d8806
-8267	10102	7130728907695474	libcommon.dll	24122ee0b6e48229
-8267	10102	7130728907695474	libcommon.dll.a	24122ee0b6e48229
 10103	10806	7130728914768122	lab4.exe	3703305c594a9b19
-10109	11264	7130728919326056	tests.exe	33672dd9ffaa20ed
 11265	11833	0	CMakeFiles/run_tests	9c7565407e0d787
 11265	11833	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/run_tests	9c7565407e0d787
+54	90	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
+10109	11264	7130728919326056	tests.exe	33672dd9ffaa20ed
+108	4347	7129975906383315	_deps/nanobench-build/CMakeFiles/nanobench.dir/src/test/app/nanobench.cpp.obj	4ba2eab1a627b0c4
+102	4234	7130045727058062	CMakeFiles/tests.dir/test/src/pythagoreanQR.cpp.obj	d73f8db98c5dc106
+253	5989	7130712221614654	CMakeFiles/tests.dir/test/src/conditionGaussianOnMarginal.cpp.obj	3ed8a90c05c3053f
+83	3891	7130721264030965	CMakeFiles/lab4.dir/src/main.cpp.obj	baee8e396c50370f
+95	6949	7129975932416945	CMakeFiles/tests.dir/test/src/main.cpp.obj	b2f79d3d9316960f
+86	637	7129976073147905	_deps/nanobench-build/libnanobench.a	1dc1a39263799771
+8267	10102	7130728907695474	libcommon.dll	24122ee0b6e48229
+99	8266	7130728889274027	CMakeFiles/common.dir/src/gaussian_util.cpp.obj	f9ffbd9e7a4d8806
+8267	10102	7130728907695474	libcommon.dll.a	24122ee0b6e48229
+31	67	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
+34	203	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/cmake.verify_globs	bc059d55c82ab689
+212	4229	7130745871361387	CMakeFiles/tests.dir/test/src/pythagoreanQR.cpp.obj	d73f8db98c5dc106
+4230	5475	7130745883768919	tests.exe	33672dd9ffaa20ed
+5476	5634	0	CMakeFiles/run_tests	9c7565407e0d787
+5476	5634	0	D:/University Work/2023/MECHA4400/MCHA4400/Labs/Week4/lab4/build/CMakeFiles/run_tests	9c7565407e0d787

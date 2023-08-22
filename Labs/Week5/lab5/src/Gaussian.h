@@ -62,17 +62,14 @@ Gaussian Gaussian::marginal(const IndexType & idx) const
 template <typename IndexTypeA, typename IndexTypeB>
 Gaussian Gaussian::conditional(const IndexTypeA & idxA, const IndexTypeB & idxB, const Eigen::VectorXd & xB) const
 {
-    // FIXME: The following implementation is in error, but it does pass some of the unit tests
+    
     Gaussian out;
     
-    Eigen::MatrixXd Sb = S_(Eigen::all,idxB);
-    Eigen::MatrixXd Sa = S_(Eigen::all,idxA);
-
-    Eigen::MatrixXd Ssig(Sa.rows(), Sa.cols() + Sb.cols());
+    Eigen::MatrixXd Ssig(S_.rows(), idxA.size() + idxB.size());
 
     // Concatenate Sa and Sb horizontally
-    Ssig.block(0, 0, Sb.rows(), Sb.cols()) = Sb;
-    Ssig.block(0, Sb.cols(), Sa.rows(), Sa.cols()) = Sa;
+    Ssig.block(0, 0, S_.rows(), idxB.size()) = S_(Eigen::all,idxB);
+    Ssig.block(0, idxB.size(), S_.rows(), idxA.size()) = S_(Eigen::all,idxA);
 
     Eigen::MatrixXd Rtotal;
     Eigen::HouseholderQR<Eigen::MatrixXd> qr(Ssig);
@@ -83,7 +80,7 @@ Gaussian Gaussian::conditional(const IndexTypeA & idxA, const IndexTypeB & idxB,
     Eigen::MatrixXd R2 = Rtotal.block(0, idxB.size(), idxB.size(), idxA.size());
     Eigen::MatrixXd R3 = Rtotal.block(idxB.size(), idxB.size(), idxA.size(), idxA.size());
 
-    out.mu_ = mu_(idxA) + ((R1.transpose()).triangularView<Eigen::Lower>().solve<Eigen::OnTheRight>(R2.transpose()))*(xB - mu_(idxB));
+    out.mu_ = mu_(idxA) + R2.transpose()*((R1.transpose()).triangularView<Eigen::Lower>().solve((xB - mu_(idxB))));
 
 
     out.S_ = R3;

@@ -20,7 +20,7 @@ MeasurementRADAR::MeasurementRADAR(double time, const Eigen::VectorXd & y)
 Eigen::VectorXd MeasurementRADAR::predict(const Eigen::VectorXd & x) const
 {
     Eigen::VectorXd h(1);
-    // TODO: Set h
+    using std::hypot;
     h << hypot(r1,(x(0)-r2));
     return h;
 }
@@ -31,8 +31,8 @@ Eigen::VectorXd MeasurementRADAR::predict(const Eigen::VectorXd & x, Eigen::Matr
     Eigen::VectorXd h = predict(x);
 
     J.resize(h.size(), x.size());
-    // TODO: Set J
-    double hrng_dh = (x(0)-r2)/ hypot(r1,(x(0)-r2));
+    //using std::hypot;
+    double hrng_dh = (x(0)-r2)/h(0);
 
     J<<hrng_dh,0,0;
 

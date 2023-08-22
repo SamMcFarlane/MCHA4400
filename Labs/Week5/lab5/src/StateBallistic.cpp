@@ -27,11 +27,11 @@ Eigen::VectorXd StateBallistic::dynamics(const Eigen::VectorXd & x) const
     double v = x(1);
     double h = x(0);
     double c = x(2);
-
+    using std::pow;
     double d = 0.5*(M*p0/R)*(1/(T0-L*h))*pow((1 - (L*h)/(T0)),(g*M/(R*L)))*v*v*c;
     f<<v, (d-g), 0;
 
-    // TODO: Set f
+    
 
     return f;
 }
@@ -42,11 +42,11 @@ Eigen::VectorXd StateBallistic::dynamics(const Eigen::VectorXd & x, Eigen::Matri
     Eigen::VectorXd f = dynamics(x);
 
     J.resize(x.size(), x.size());
-    // TODO: Set J
+    
     double v = x(1);
     double h = x(0);
     double c = x(2);
-
+    using std::pow;
     double d_dh = -(M*c*(M*g-L*R)*p0*v*v*pow((1 - (L*h)/(T0)),(g*M/(R*L))))/(2*R*R*(L*h - T0)*(L*h - T0));
     double d_dv = (M*p0/R)*(1/(T0-L*h))*pow((1 - (L*h)/(T0)),(g*M/(R*L)))*v*c;
     double d_dc = 0.5*(M*p0/R)*(1/(T0-L*h))*pow((1 - (L*h)/(T0)),(g*M/(R*L)))*v*v;

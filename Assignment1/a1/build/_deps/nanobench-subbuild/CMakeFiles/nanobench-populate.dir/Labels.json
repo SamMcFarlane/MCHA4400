@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/_deps/nanobench-subbuild/CMakeFiles/nanobench-populate"
+		},
+		{
+			"file" : "D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/_deps/nanobench-subbuild/CMakeFiles/nanobench-populate.rule"
+		},
+		{
+			"file" : "D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/_deps/nanobench-subbuild/CMakeFiles/nanobench-populate-complete.rule"
+		},
+		{
+			"file" : "D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/src/nanobench-populate-stamp/nanobench-populate-build.rule"
+		},
+		{
+			"file" : "D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/src/nanobench-populate-stamp/nanobench-populate-configure.rule"
+		},
+		{
+			"file" : "D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/src/nanobench-populate-stamp/nanobench-populate-download.rule"
+		},
+		{
+			"file" : "D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/src/nanobench-populate-stamp/nanobench-populate-install.rule"
+		},
+		{
+			"file" : "D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/src/nanobench-populate-stamp/nanobench-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/src/nanobench-populate-stamp/nanobench-populate-patch.rule"
+		},
+		{
+			"file" : "D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/src/nanobench-populate-stamp/nanobench-populate-test.rule"
+		},
+		{
+			"file" : "D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/_deps/nanobench-subbuild/nanobench-populate-prefix/src/nanobench-populate-stamp/nanobench-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nanobench-populate"
+		],
+		"name" : "nanobench-populate"
+	}
+}

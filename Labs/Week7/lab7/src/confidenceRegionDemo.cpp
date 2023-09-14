@@ -60,9 +60,9 @@ void calibrationConfidenceRegionDemo(const Camera & cam, ChessboardData & chessb
     StateSLAMPointLandmarks state(Gaussian(mu, S));
 
     // Initialise plot
-    std::cout<<"I'm here before plot"<<std::endl;
+
     Plot plot(state, cam);
-    std::cout<<"I'm here after plot"<<std::endl;
+
 
     // for (const auto & chessboardImage : chessboardData.chessboardImages)
     for (std::size_t i = 0; i < chessboardData.chessboardImages.size(); ++i)
@@ -81,13 +81,13 @@ void calibrationConfidenceRegionDemo(const Camera & cam, ChessboardData & chessb
 
         // Get a copy of the image for plot to draw on
         state.view() = chessboardImage.image.clone();
-        std::cout<<"I'm here after stateview"<<std::endl;
+       
         // Set local copy of state for plot to use
         plot.setState(state);
-        std::cout<<"I'm here after setState"<<std::endl;
+
         // Update plot
         plot.render();
-        std::cout<<"I'm here after render"<<std::endl;
+ 
 
         std::filesystem::path outputPath;
         if (doExport)

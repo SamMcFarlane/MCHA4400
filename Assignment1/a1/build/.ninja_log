@@ -1,0 +1,79 @@
+# ninja log v5
+708	14051	7162664247453772	CMakeFiles/common.dir/src/Event.cpp.obj	be8a3e01426b5e74
+100	14661	7163607058153603	CMakeFiles/common.dir/src/Plot.cpp.obj	a565a65baa7fd5db
+89	7762	7163603742160378	CMakeFiles/common.dir/src/Camera.cpp.obj	d2990f958a6d3a0f
+15385	15726	7163607069083766	a1.exe	7c61eeae723e9c43
+9634	14971	7155968134769317	_deps/nanobench-build/CMakeFiles/nanobench.dir/src/test/app/nanobench.cpp.obj	e466ecf1ccd7c2f8
+120	3160	7163604397399719	CMakeFiles/common.dir/src/imageFeatures.cpp.obj	b1052f56fbf2bf5
+114	5222	7163606963995408	CMakeFiles/common.dir/src/StateSLAMPoseLandmarks.cpp.obj	a006c095f9e8ec34
+14662	15385	7163607064995001	libcommon.dll.a	997390aee19d5866
+5757	8886	7155968074211319	CMakeFiles/a1.dir/src/main.cpp.obj	d6a4df2fa84022aa
+122	5858	7163603723131271	CMakeFiles/common.dir/src/calibrate.cpp.obj	2eb658ee156463aa
+14989	15619	7155968140105040	_deps/nanobench-build/libnanobench.a	f44072a1cd32e9e9
+104	13269	7163607044230817	CMakeFiles/common.dir/src/StateSLAM.cpp.obj	4b680aa8144d8e51
+158	18440	7155968169426607	CMakeFiles/common.dir/src/funcmin.cpp.obj	df7c91bd6c8bec9
+108	5172	7163606963447219	CMakeFiles/common.dir/src/StateSLAMPointLandmarks.cpp.obj	6c0c67543bff49bb
+92	10929	7162882333369452	CMakeFiles/common.dir/src/Measurement.cpp.obj	28e3cc15404b36f
+125	7973	7163606991491870	CMakeFiles/common.dir/src/visualNavigation.cpp.obj	43fe19972019c18c
+95	10598	7163607017542546	CMakeFiles/common.dir/src/MeasurementPointBundle.cpp.obj	ec4248237c493b59
+82	11444	7162848500604114	build.ninja	16bf736529e94e0
+159	5353	7162848554400705	CMakeFiles/tests.dir/test/src/StateSLAMPoseLandmarks.cpp.obj	c28bdc20f9ec785e
+8886	19289	7155968178133312	CMakeFiles/tests.dir/test/src/main.cpp.obj	a673bdcaeb97e2c1
+725	20766	7162664314604215	CMakeFiles/common.dir/src/State.cpp.obj	bc191e965dbf81b2
+40	69	0	D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/CMakeFiles/cmake.verify_globs	ce069b6697484c43
+79	5704	7155968042196932	CMakeFiles/common.dir/src/BufferedVideo.cpp.obj	6af6ab0e2bf8eb5e
+14662	15385	7163607064995001	libcommon.dll	997390aee19d5866
+15390	15744	7163607069183504	tests.exe	863eccc236d46ca9
+15744	15791	0	CMakeFiles/run_tests	2e9bbbb0ed5e8ba6
+119	10545	7163607017113344	CMakeFiles/common.dir/src/dataAssociation.cpp.obj	4e5b984c3cdad450
+15744	15791	0	D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/CMakeFiles/run_tests	2e9bbbb0ed5e8ba6
+41	69	0	D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/CMakeFiles/cmake.verify_globs	ce069b6697484c43
+115	4944	7163612843025257	CMakeFiles/common.dir/src/StateSLAMPoseLandmarks.cpp.obj	a006c095f9e8ec34
+109	5215	7163612845777891	CMakeFiles/common.dir/src/StateSLAMPointLandmarks.cpp.obj	6c0c67543bff49bb
+121	9958	7163612893001592	CMakeFiles/common.dir/src/dataAssociation.cpp.obj	4e5b984c3cdad450
+95	10235	7163612895814404	CMakeFiles/common.dir/src/MeasurementPointBundle.cpp.obj	ec4248237c493b59
+103	13109	7163612924427883	CMakeFiles/common.dir/src/StateSLAM.cpp.obj	4b680aa8144d8e51
+99	14654	7163612939926091	CMakeFiles/common.dir/src/Plot.cpp.obj	a565a65baa7fd5db
+40	69	0	D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/CMakeFiles/cmake.verify_globs	ce069b6697484c43
+95	5461	7163613142322961	CMakeFiles/common.dir/src/visualNavigation.cpp.obj	43fe19972019c18c
+5461	6178	7163613142322961	libcommon.dll	997390aee19d5866
+5461	6178	7163613142322961	libcommon.dll.a	997390aee19d5866
+6187	6227	0	CMakeFiles/run_tests	2e9bbbb0ed5e8ba6
+6187	6227	0	D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/CMakeFiles/run_tests	2e9bbbb0ed5e8ba6
+39	68	0	D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/CMakeFiles/cmake.verify_globs	ce069b6697484c43
+36	64	0	D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/CMakeFiles/cmake.verify_globs	ce069b6697484c43
+91	5420	7163614361889585	CMakeFiles/common.dir/src/visualNavigation.cpp.obj	43fe19972019c18c
+5421	6150	7163614361889585	libcommon.dll	997390aee19d5866
+5421	6150	7163614361889585	libcommon.dll.a	997390aee19d5866
+6160	6184	0	CMakeFiles/run_tests	2e9bbbb0ed5e8ba6
+6160	6184	0	D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/CMakeFiles/run_tests	2e9bbbb0ed5e8ba6
+39	67	0	D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/CMakeFiles/cmake.verify_globs	ce069b6697484c43
+93	116	0	CMakeFiles/run_tests	2e9bbbb0ed5e8ba6
+93	116	0	D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/CMakeFiles/run_tests	2e9bbbb0ed5e8ba6
+34	69	0	D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/CMakeFiles/cmake.verify_globs	ce069b6697484c43
+95	5466	7163622006906899	CMakeFiles/common.dir/src/visualNavigation.cpp.obj	43fe19972019c18c
+5467	6198	7163622013493802	libcommon.dll	997390aee19d5866
+5467	6198	7163622013493802	libcommon.dll.a	997390aee19d5866
+6198	6564	7163622017872217	a1.exe	7c61eeae723e9c43
+6204	6584	7163622017991756	tests.exe	863eccc236d46ca9
+6584	6639	0	CMakeFiles/run_tests	2e9bbbb0ed5e8ba6
+6584	6639	0	D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/CMakeFiles/run_tests	2e9bbbb0ed5e8ba6
+41	71	0	D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/CMakeFiles/cmake.verify_globs	ce069b6697484c43
+97	5503	7163622512527208	CMakeFiles/common.dir/src/visualNavigation.cpp.obj	43fe19972019c18c
+5504	6232	7163622512527208	libcommon.dll	997390aee19d5866
+5504	6232	7163622512527208	libcommon.dll.a	997390aee19d5866
+6242	6279	0	CMakeFiles/run_tests	2e9bbbb0ed5e8ba6
+6242	6279	0	D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/CMakeFiles/run_tests	2e9bbbb0ed5e8ba6
+41	76	0	D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/CMakeFiles/cmake.verify_globs	ce069b6697484c43
+109	8253	7163678188561353	CMakeFiles/common.dir/src/MeasurementPointBundle.cpp.obj	ec4248237c493b59
+113	10941	7163678215319437	CMakeFiles/common.dir/src/StateSLAM.cpp.obj	4b680aa8144d8e51
+104	11729	7163678222071369	CMakeFiles/common.dir/src/Measurement.cpp.obj	28e3cc15404b36f
+40	69	0	D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/CMakeFiles/cmake.verify_globs	ce069b6697484c43
+34	62	0	D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/CMakeFiles/cmake.verify_globs	ce069b6697484c43
+88	5425	7163680920079671	CMakeFiles/common.dir/src/visualNavigation.cpp.obj	43fe19972019c18c
+5426	6204	7163680927115009	libcommon.dll	997390aee19d5866
+5426	6204	7163680927115009	libcommon.dll.a	997390aee19d5866
+6205	6541	7163680931268155	a1.exe	7c61eeae723e9c43
+6210	6556	7163680931347546	tests.exe	863eccc236d46ca9
+6556	6649	0	CMakeFiles/run_tests	2e9bbbb0ed5e8ba6
+6556	6649	0	D:/University Work/2023/MECHA4400/MCHA4400/Assignment1/a1/build/CMakeFiles/run_tests	2e9bbbb0ed5e8ba6

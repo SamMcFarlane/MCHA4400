@@ -141,7 +141,6 @@ public:
 
     out.mu_ = mu_(idxA) + R2.transpose()*((R1.transpose()).triangularView<Eigen::Lower>().solve((xB - mu_(idxB))));
 
-    std::cout<<"Mutator 2///////////////////////////////////////////////////////"<<std::endl;
     out.S_ = R3;
     return out;
     }
@@ -155,7 +154,6 @@ public:
         const std::size_t & ny = out.mu_.rows();
         Eigen::MatrixX<Scalar> SS = S_*C.transpose();
         Eigen::HouseholderQR<Eigen::Ref<Eigen::MatrixX<Scalar>>> qr(SS);   // In-place QR decomposition
-        std::cout<<"Mutator 3///////////////////////////////////////////////////////"<<std::endl;
         out.S_ = SS.topRows(ny).template triangularView<Eigen::Upper>();
         return out;
     }
@@ -172,7 +170,6 @@ public:
         Eigen::MatrixX<Scalar> SS(nx + ny, ny);
         SS << S_*C.transpose(), noise.sqrtCov();
         Eigen::HouseholderQR<Eigen::Ref<Eigen::MatrixX<Scalar>>> qr(SS);   // In-place QR decomposition
-        std::cout<<"Mutator 4///////////////////////////////////////////////////////"<<std::endl;
         out.S_ = SS.topRows(ny).template triangularView<Eigen::Upper>();
         return out;
     }
